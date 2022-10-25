@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+h4{
+  font-size: 60px;
+  text-align: center;
+}
+p {
+  font-size: 23px;
+  text-align: justify;
+}
+nav{
+  height: 50px;
+  font-family: "Work Sans", sans-serif;
+    background-color:  rgb(109, 39, 39);
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding: 0 20%;
+}
+nav .logo{
+    font-size: 30px;
+    text-align: left;
+    padding-right: 70%;
+}
+nav .inicio{
+    font-size: 30px;
+    text-align: right;
+}
+.cambiodep {
+  width: 100%;
+  background-color: rgb(109, 39, 39);
+  text-align: center;
+  font-size: 30px;
+}
+.titulos {
+  width: 100%;
+  background-color: rgb(201, 160, 160);
+  text-align: center;
+  font-size: 30px;
+}
+body {
+  margin: 0;
+  font-family: "rebot" sans-serif;
+  background-color: rgb(218, 205, 205);
+}
+button {
+  margin: 0 20px;
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0, 1);
+  color: rgb(29, 4, 4);
+  background-color: rgb(201, 160, 160);
+}
+button:hover {
+  background-color: rgb(216, 24, 24);
+}
+.contener {
+  max-width: 1200px;
+  margin: auto;
+}
+#hero {
+  margin: auto;
+  color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 700px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(imagenes/deportes1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#hero h1 {
+  font-size: 100px;
+}
+
+#Tdeportes {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#Tdeportes.contener {
+  padding: 100px 100px;
+}
+#Tdeportes .division {
+  color: wheat;
+  width: 500px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  padding: 0px 5px;
+  margin: 5px;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.division:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(imagenes/box1.jpg);
+}
+.division:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(imagenes/pelotas.png);
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.division:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(imagenes/raqeutas.png);
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.division:nth-child(4) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(imagenes/mesa.jpg);
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+#Tdeportes .dospordos {
+  display: flex;
+}
+#Tdeportes h2 {
+  font-size: 60px;
+}
+#Tdeportes h4 {
+  font-size: 30px;
+}
+
+#contacto {
+  width: 100%;
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center center;
+  background-color: rgb(218, 205, 205);
+}
+.clasi1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contacto .DDC {
+  margin-left: 50px;
+}
+#contacto h1 {
+  font-size: 60px;
+}
+#boxeo .clasibox {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+#boxeo h1 {
+  font-size: 40px;
+}
+li {
+  font-size: 23px;
+  font-weight: bold;
+  text-align: justify;
+  width: 100%;
+}
+ul {
+  font-size: 50px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+.contenedorimg {
+  display: flex;
+  text-align: left;
+  text-align: justify;
+}
+#boxeo .texobox {
+  width: 50%;
+}
+.jab {
+  background-image: url(imagenes/golpesbox.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 50%;
+  height: auto;
+  margin-left: 10px;
+}
+.defenicion {
+  display: flex;
+  align-items: center;
+}
+.imgdefi {
+    margin: 0 25px;
+  width: 300px;
+  height: auto;
+}
+#kickboxing .patadakick {
+  margin: 0 20px;
+  background-image: url(imagenes/kick2.jpg);
+  width: 50%;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.imgposvol{
+    margin: 0 20px;
+    width: 100%;
+    text-align: center
+}
+.tablero{
+  margin: 0 20px;
+  background-image: url(imagenes/ajedrez2.png);
+  width: 50%;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.jaque1{
+  margin: 0 20px;
+  background-image: url(imagenes/ajedrez3.png);
+  width: 50%;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+footer{ margin: auto;
+  color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 700px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(imagenes/deportes1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 50px;
+}
